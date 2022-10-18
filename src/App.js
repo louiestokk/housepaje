@@ -15,7 +15,7 @@ import img11 from "./assets/IMG-1192.jpg";
 import img12 from "./assets/IMG-1244.jpg";
 import img13 from "./assets/IMG-1281.jpg";
 import img14 from "./assets/IMG-1294.jpg";
-import map from "./assets/housepaje.png";
+import map from "./assets/villapaje.png";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
 function App() {
@@ -61,15 +61,6 @@ function App() {
             <a>WhatsApp +46-768670210</a>
             <a>Local +255-715168659</a>
           </div>
-
-          <ImLocation
-            style={{
-              marginLeft: "0.5rem",
-              cursor: "pointer",
-              marginRight: "0.15rem"
-            }}
-          />
-          <a>Google maps</a>
         </div>
       </header>
       <section>
@@ -97,9 +88,7 @@ function App() {
       >
         <p>Villa of Sweden</p>
         <div style={{ display: "flex", alignItems: "center" }}>
-          <BsFillTelephoneFill
-            style={{ marginRight: "0.5rem", cursor: "pointer" }}
-          />
+          <BsFillTelephoneFill style={{ marginRight: "0.5rem" }} />
           <div
             style={{
               display: "flex",
@@ -110,15 +99,6 @@ function App() {
             <a>WhatsApp +46-768670210</a>
             <a>Local +255-715168659</a>
           </div>
-
-          <ImLocation
-            style={{
-              marginLeft: "0.5rem",
-              cursor: "pointer",
-              marginRight: "0.15rem"
-            }}
-          />
-          <a>Google maps</a>
         </div>
       </header>
     </div>
